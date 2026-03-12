@@ -1,0 +1,14 @@
+@import "variables";
+@import "mixins";
+
+.demo-verde {
+
+@include bloque($verde);
+
+}
+
+.demo-rojo {
+
+@include bloque($rojo);
+
+}
